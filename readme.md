@@ -6,7 +6,7 @@ This is a Landing Page of the Shopify which was made using purely HTML and Tailw
 8 Hours+
 
 
-[Shopify-Clone]()
+[Shopify-Clone](https://shopify-clone-akj.netlify.app/)
 
 ### SnapShot of the Webpage
 
