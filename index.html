@@ -31,18 +31,18 @@
         <div class="flex justify-between px-[1rem] ">
           <img src="./assets/logo.svg" alt="logo" class="w-[8rem]" draggable="false" />
           <ul class="hidden xl:block xl:flex xl:justify-between">
-            <li class="text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Start <i class="fas fa-chevron-down"></i></a></li>
-            <li class="text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Sell <i class="fas fa-chevron-down"></i></a></li>
-            <li class="text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Market <i class="fas fa-chevron-down"></i></a></li>
-            <li class="text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Manage <i class="fas fa-chevron-down"></i></a></li>
+            <li class="transition ease-in duration-200 text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Start <i class="fas fa-chevron-down"></i></a></li>
+            <li class=" transition ease-in duration-200 text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Sell <i class="fas fa-chevron-down"></i></a></li>
+            <li class="transition ease-in duration-200 text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Market <i class="fas fa-chevron-down"></i></a></li>
+            <li class="transition ease-in duration-200 text-lg hover:text-black font-semibold text-gray-500 xl:p-[1rem]"><a href="">Manage <i class="fas fa-chevron-down"></i></a></li>
           </ul>
         </div>
         <div class="flex">
             <ul class="flex">
-                <li class="hidden xl:block text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Pricing</a></li>
-                <li class="text-lg hidden xl:block font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Learn <i class="fas fa-chevron-down"></i></a></li>
-                <li class="text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem] pr-3"><a href="">Log in</a></li>
-                <button class="bg-[#008060] hidden xl:block mx-auto rounded-lg text-white px-2 xl:h-[3rem] xl:mt-2  xl:w-[7rem] hover:bg-[#004C3F]">Try for Free</button>
+                <li class="transition ease-in duration-200 hidden xl:block text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Pricing</a></li>
+                <li class="transition ease-in duration-200 text-lg hidden xl:block font-semibold text-gray-500 hover:text-black xl:p-[1rem]"><a href="">Learn <i class="fas fa-chevron-down"></i></a></li>
+                <li class="transition ease-in duration-200 text-lg font-semibold text-gray-500 hover:text-black xl:p-[1rem] pr-3"><a href="">Log in</a></li>
+                <button class="transition ease-in duration-200 bg-[#008060] hidden xl:block mx-auto rounded-lg text-white px-2 xl:h-[3rem] xl:mt-2  xl:w-[7rem] hover:bg-[#004C3F]">Try for Free</button>
             </ul>
           <i class="fas fa-bars mt-1 xl:hidden text-xl mr-5"></i>
         </div>
@@ -66,7 +66,7 @@
               placeholder="Enter your email Address"
             />
             <button
-              class="bg-[#008060] mx-auto rounded-lg text-white p-2 hover:bg-[#004C3F] mt-4 w-[100%] sm:w-[30%] sm:ml-[1.5rem]"
+              class="transition ease-in duration-200 bg-[#008060] mx-auto rounded-lg text-white p-2 hover:bg-[#004C3F] mt-4 w-[100%] sm:w-[30%] sm:ml-[1.5rem]"
             >
               Try For Free
             </button>
@@ -87,9 +87,13 @@
                     Create an ecommerce website backed by powerful tools that help you
                     find customers, drive sales, and manage your day-to-day.
                 </p>
-                <a href=""
-                >Explore more examples <i class="fas fa-arrow-right pt-1"></i
-                    ></a>
+                <div class="w-[14%] flex justify-start hover:justify-between">
+                  <a href="" 
+                  
+                  >Explore more examples 
+                </a>
+                <i class="fas fa-arrow-right  ml-1 mt-[.4rem]"></i>
+              </div>
                 </div>
         </div>
 
@@ -97,27 +101,27 @@
         <div class="mt-5 mb-[10rem] flex flex-row flex-wrap justify-around">
             <div class="w-2/5 xl:w-1/6 lg:w-1/5 md:w-1/4 mt-[3rem]">
                 <img src="./assets/home-example-small-4144844351e226a9896cffee4bebdaeecb17897116c33a753bfd086b8b621e74.jpg" draggable="false" alt="img">
-                <p class="font-bold">FOOD & DRINK</p>
+                <p class="font-bold mr-[6.6rem] hover:border-b hover:border-b-white border-transparent border  cursor-pointer">FOOD & DRINK</p>
                 <p>Blue Tokai</p>
             </div>
             <div class="w-2/5 xl:w-1/6 lg:w-1/5 md:w-1/4 mt-[3rem]">
                 <img src="./assets/home-example-small-8b1c6b138414b76150e6e00f5143c4301a07b708aa6113dd7096f4340ddfecad.jpg" draggable="false" alt="img">
-                <p class="font-bold">JEWELRY</p>
+                <p class="font-bold  mr-[9.8rem] hover:border-b hover:border-b-white border-transparent border  cursor-pointer">JEWELRY</p>
                 <p>Quirksmith</p>
             </div>
             <div class="w-2/5 xl:w-1/6 lg:w-1/5 md:w-1/4 mt-[3rem]">
                 <img src="./assets/home-example-small-099933088cbe804543fbb1b0963a5d0a16365e73e6000949b5b0ab2bf4b21503.jpg" draggable="false" alt="img">
-                <p class="font-bold">ELECTRONICS</p>
+                <p class="font-bold  mr-[7.5rem] hover:border-b hover:border-b-white border-transparent border  cursor-pointer">ELECTRONICS</p>
                 <p>Crossbeats</p>
             </div>
             <div class="w-2/5 xl:w-1/6 lg:w-1/5 md:hidden lg:block  mt-[3rem]">
                 <img src="./assets/home-example-small-26afc247af7a3a7b1c9c585a645ccdff26e76156e98be7d9ff0fe9ecd4d3b675.jpg" draggable="false" alt="img">
-                <p class="font-bold">BEAUTY</p>
+                <p class="font-bold  mr-[10rem] hover:border-b hover:border-b-white border-transparent border  cursor-pointer">BEAUTY</p>
                 <p>Mcaffeine</p>
             </div>
             <div class="w-2/5 xl:w-1/6 hidden xl:block mt-[3rem]">
                 <img src="./assets/home-example-small-4575b175c798e22af5531bae02621396add507433f771db37b1515e9941f8a45.jpg" draggable="false" alt="img">
-                <p class="font-bold">FASHION</p>
+                <p class="font-bold  mr-[9.5rem] hover:border-b hover:border-b-white border-transparent border  cursor-pointer">FASHION</p>
                 <p>Bunaai</p>
             </div>
         </div>
@@ -161,9 +165,12 @@
             <p class="pb-4 text-lg text-gray-500 xl:w-[80%]">
                 Use one platform to sell products to anyone, anywhere—in person with Point of Sale and online through your website, social media, and online marketplaces.
             </p>
-            <a href="#"
-              class="text-[#008060] font-bold">Explore ways to sell <i class="fas fa-arrow-right pt-1"></i
-            ></a>
+            <div class="w-[30%] flex justify-start hover:justify-between">
+              <a href="#"
+              class="text-[#008060] font-bold">Explore ways to sell</a>
+            <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+          </div>
+            
           </div>
           <video src="./assets/2ndv.webm" autoplay="" loop="" class="w-[45%]"></video>
         </div>
@@ -173,9 +180,11 @@
             <p class="pb-4 text-lg text-gray-500 xl:w-[80%]">
                 Take the guesswork out of marketing with built-in tools that help you create, execute, and analyze digital marketing campaigns.
             </p>
-            <a href="#"
-              class="text-[#008060] font-bold">Explore how to market your business <i class="fas fa-arrow-right pt-1"></i
-            ></a>
+            <div class="w-[51%] flex justify-start hover:justify-between">
+              <a href="#"
+              class="text-[#008060] font-bold">Explore how to market your business</a>
+            <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+          </div>
             
             </div>
           <img src="./assets/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg" class="w-[45%] xl:mr-[5rem]" draggable="false" alt="">
@@ -186,9 +195,12 @@
             <p class="pb-4 text-lg text-gray-500 xl:w-[80%  ]">
                 Gain the insights you need to grow—use a single dashboard to manage orders, shipping, and payments anywhere you go.
             </p>
-            <a href="#"
-              class="text-[#008060] font-bold">Explore how to manage your business <i class="fas fa-arrow-right pt-1"></i
-            ></a>
+            <div class="w-[53%] flex justify-start hover:justify-between">
+              <a href="#"
+              class="text-[#008060] font-bold">Explore how to manage your business</a>
+            <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+          </div>
+           
         </div>
           <img src="./assets/num.png" draggable="false" class="xl:w-[45%]" alt="">
         </div>
@@ -204,9 +216,11 @@
                     <h4 class="font-bold pb-5">START</h4>
                     <p class="text-xl pb-5 xl:text-2xl xl:w-[80%]">Launch your store with the help of a Shopify Expert</p>
                     <p class="pb-5 xl:w-[80%]">Find hundreds of experts from India ready to help you get your store up and running, from choosing a theme to building a fully customized site.</p>
-                    <a href="#"
-              class="text-[#008060] font-bold">Browse Experts in India<i class="fas fa-arrow-right pt-1"></i
-            ></a>
+                    <div class="w-[31%] flex justify-start hover:justify-between">
+                      <a href="#"
+                      class="text-[#008060] font-bold">Browse Experts in India</a>
+                    <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+                  </div>
                 </div>
             </div>
         </div>
@@ -218,9 +232,11 @@
                 <p class="text-2xl xl:text-4xl xl:w-1/2 pb-5">Empowering independent business owners everywhere</p>
                 <p class="pb-5 text-xl xl:w-[45%]">
                     Millions of businesses in <strong>175 countries</strong> around the world have made over <strong>$496 billion USD</strong> in sales using Shopify </p>
-                <a href="#"
-          class="text-[#008060] font-bold">Learn more about Shopify<i class="fas fa-arrow-right pt-1"></i
-        ></a>
+                    <div class="w-[17%] flex justify-start hover:justify-between">
+                      <a href="#"
+                      class="text-[#008060] font-bold">Learn more about Shopify</a>
+                    <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+                  </div>
             </div>
             <img src="./assets/download.png" class="xl:w-[80%] xl:ml-[5%] xl:mt-[-10%]" draggable="false" alt="">
         </div>
@@ -255,23 +271,29 @@ It was stunningly easy to use, with more features and plug-ins that I didn’t e
                     <div class="lg:w-1/3 lg:mr-[4rem]">
                         <h1 class="text-base mt-[2rem] font-semibold text-gray-900">Shopify support</h1>
                         <p class="text-gray-600 mt-3 mb-[1rem]">Contact support 24/7, whether you’re troubleshooting issues or looking for business advice.</p>
-                        <a href="#"
-                        class="text-[#008060] font-semibold ">Contact Support<i class="fas fa-arrow-right pt-1"></i
-                    ></a>
+                        <div class="w-[68%] flex justify-start hover:justify-between">
+                          <a href="#"
+                          class="text-[#008060] font-semibold">Contact Support</a>
+                        <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+                      </div>
                     </div>
                     <div class="lg:w-1/3">
                         <h1 class="text-base mt-[2rem] font-semibold text-gray-900">Shopify App Store</h1>
                         <p class="text-gray-600 mt-3 mb-[1rem]">Add features and functionality to your business with 6,000+ apps that integrate directly with Shopify.</p>
-                        <a href="#"
-                        class="text-[#008060] font-semibold ">Visit the Shopify App Store<i class="fas fa-arrow-right pt-1"></i
-                    ></a>
+                        <div class="w-[100%] flex justify-start hover:justify-between">
+                          <a href="#"
+                          class="text-[#008060] font-semibold">Visit the Shopify App Store</a>
+                        <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+                      </div>
                     </div>
                     <div class="lg:w-1/3">
                         <h1 class="text-base mt-[2rem] font-semibold text-gray-900">Shopify Experts Marketplace</h1>
                         <p class="text-gray-600 mt-3 mb-[1rem]">Hire a Shopify expert to help you with everything from store setup to SEO.</p>
-                        <a href="#"
-                        class="text-[#008060] font-semibold ">Explore the Shopify Expert Marketplace<i class="fas fa-arrow-right pt-1"></i
-                    ></a>
+                        <div class="w-[100%] flex justify-start hover:justify-between">
+                          <a href="#"
+                          class="text-[#008060] font-semibold">Explore the Shopify Expert Marketplace</a>
+                        <i class="fas fa-arrow-right  ml-1 mt-[.4rem] text-[#008060]"></i>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -284,7 +306,7 @@ It was stunningly easy to use, with more features and plug-ins that I didn’t e
             <div class="px-5 py-[2rem] flex flex-col items-center text-center">
                 <h2 class="text-2xl">Start your business journey with Shopify</h2>
                 <p class="w-4/5 mx-auto md:w-[40%]">Try Shopify for free, and explore all the tools and services you need to start, run, and grow your business.</p>
-                <button  class="bg-[#008060] mx-auto rounded text-white p-2 hover:bg-[#004C3F] mt-4 w-[15%]">Start Free Trial</button>
+                <button  class="transition ease-in duration-200 bg-[#008060] mx-auto rounded text-white p-2 hover:bg-[#004C3F] mt-4 w-[15%]">Start Free Trial</button>
             </div>
             <a href="#" class="text-xl float-right mt-[-5%] mr-[7%]  font-bold text-[#008060]">Back to Top <i class="fas fa-arrow-up"></i></a>
         </section>
@@ -304,56 +326,56 @@ It was stunningly easy to use, with more features and plug-ins that I didn’t e
             <div class="w-1/2 flex flex-col lg:flex-row lg:justify-between">
                 <ul>
                     <li class="font-bold text-white"><a href="">ONLINE STORE</a></li>
-                    <li class="py-1"><a href="">Sell Online</a></li>
-                    <li class="py-1"><a href="">Features</a></li>
-                    <li class="py-1"><a href="">Examples</a></li>
-                    <li class="py-1"><a href="">Website Builder</a></li>
-                    <li class="py-1"><a href="">Online retail</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Sell Online</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Features</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Examples</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Website Builder</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Online retail</a></li>
                 </ul>
                 <ul>
-                    <li class="py-1"><a href="">Ecommerce Website</a></li>
-                    <li class="py-1"><a href="">Domain Names</a></li>
-                    <li class="py-1"><a href="">Themes</a></li>
-                    <li class="py-1"><a href="">Shopping Cart</a></li>
-                    <li class="py-1"><a href="">Ecommerce hosting</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Ecommerce Website</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Domain Names</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Themes</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Shopping Cart</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Ecommerce hosting</a></li>
                 </ul>
                 <ul>
-                       <li class="py-1"><a href="">Mobile commerce</a></li>
-                       <li class="py-1"><a href="">Ecommerce software</a></li>
-                       <li class="py-1"><a href="">Online store bulder</a></li>
-                       <li class="py-1"><a href="">Dropshipping Business</a></li>
-                       <li class="py-1"><a href="">Store Themes</a></li>
+                       <li class="py-1 transition hover:text-gray-100"><a href="">Mobile commerce</a></li>
+                       <li class="py-1 transition hover:text-gray-100"><a href="">Ecommerce software</a></li>
+                       <li class="py-1 transition hover:text-gray-100"><a href="">Online store bulder</a></li>
+                       <li class="py-1 transition hover:text-gray-100"><a href="">Dropshipping Business</a></li>
+                       <li class="py-1 transition hover:text-gray-100"><a href="">Store Themes</a></li>
                 </ul>
             </div>
             <div class="w-1/2 flex lg:ml-[9rem] flex-col lg:flex-row lg:justify-between">
                 <ul>
                     <li class="font-bold text-white"><a href="" >POINT OF SALE</a></li>
-                    <li class="py-1"><a href="">Point of Sale</a></li>
-                    <li class="py-1"><a href="">Features</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Point of Sale</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Features</a></li>
                 </ul>
                 <ul>
                     <li class="font-bold text-white lg:mt-0 mt-[2rem]"><a href="">SUPPORT</a></li>
-                    <li class="py-1"><a href="">24/7 Support</a></li>
-                    <li class="py-1"><a href="">Shopify Help Center</a></li>
-                    <li class="py-1"><a href="">Shopify Community</a></li>
-                    <li class="py-1"><a href="">API Documnetation</a></li>
-                    <li class="py-1"><a href="">Free tools</a></li>
-                    <li class="py-1"><a href="">Free Stock Photos</a></li>
-                    <li class="py-1"><a href="">Websites for sale</a></li>
-                    <li class="py-1"><a href="">Logo Maker</a></li>
-                    <li class="py-1"><a href="">Business Name Generator</a></li>
-                    <li class="py-1"><a href="">Research</a></li>
-                    <li class="py-1"><a href="">Legal</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">24/7 Support</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Shopify Help Center</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Shopify Community</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">API Documnetation</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Free tools</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Free Stock Photos</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Websites for sale</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Logo Maker</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Business Name Generator</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Research</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Legal</a></li>
                 </ul>
                 <ul>
                     <li class="font-bold lg:mt-0 text-white mt-[2rem]"><a href="">SHOPIFY</a></li>
-                    <li class="py-1"><a href="">Contact</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Contact</a></li>
                     <li><a href="">Partner Program</a></li>
-                    <li class="py-1"><a href="">Affiliate Program</a></li>
-                    <li class="py-1"><a href="">App Developers</a></li>
-                    <li class="py-1"><a href="">Investors</a></li>
-                    <li class="py-1"><a href="">Blog topics</a></li>
-                    <li class="py-1"><a href="">Community Events</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Affiliate Program</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">App Developers</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Investors</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Blog topics</a></li>
+                    <li class="py-1 transition hover:text-gray-100"><a href="">Community Events</a></li>
                 </ul>
             </div>
          </div>
